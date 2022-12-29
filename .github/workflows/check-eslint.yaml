@@ -1,9 +1,6 @@
 name: ES Lint
 
-on:
-  push:
-    branches:
-      - main
+on: push
 
 jobs:
   ES-Lint:
