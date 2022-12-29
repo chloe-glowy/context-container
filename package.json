@@ -1,11 +1,13 @@
 {
   "author": "Chloe <chloe@chloeglowy.me>",
   "name": "context-container",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "private": false,
   "description": "A context container for TypeScript. Allows a 'Context' object to be shared throughout the lifecycle of a 'job', such as a web request, script execution, or task handler.",
-  "main": "src/public/ContextContainer.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "prepublish": "tsc",
   "scripts": {
     "test": "npx jest src",
     "test-with-coverage": "npx jest src --collect-coverage",

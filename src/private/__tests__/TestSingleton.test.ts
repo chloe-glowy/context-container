@@ -1,8 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import {
-  ContextContainerFactory,
-  ContextualSingleton,
-} from 'src/public/ContextContainer';
+import { ContextContainerFactory, ContextualSingleton } from 'src';
 
 describe('Singleton', () => {
   it('Creates a singleton', () => {
