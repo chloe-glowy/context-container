@@ -4,7 +4,7 @@ import { createPluginReference } from 'src/public/ContextContainer';
 
 describe('Errors', () => {
   it('Fails if an incorrect token is passed', async () => {
-    const token = 3;
+    const token = 4;
     expect(() => assertConstructedByContextContainer(token)).toThrow();
   });
 
