@@ -25,13 +25,6 @@ export class ContextContainerImpl implements ContextContainer {
     return this.plugins.get(ref);
   }
 
-  public untestedFunction(): void {
-    // This function is not tested, so it is not covered by the test coverage
-    // report. This is intentional, to demonstrate that the test coverage report
-    // is working.
-    console.log('This function is not tested');
-  }
-
   public getSingleton<TSingleton extends ContextualSingleton>(
     singletonClass: SingletonClass<TSingleton>,
   ): TSingleton {
