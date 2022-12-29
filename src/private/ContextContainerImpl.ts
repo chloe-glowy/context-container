@@ -1,11 +1,11 @@
-import { ProofOfBeingCalledByContextContainer } from 'src/private/ContextContainerFactoryImpl';
-import { PluginCollection } from 'src/private/PluginCollection';
 import {
   ContextContainer,
   ContextualSingleton,
   PluginReference,
   SingletonClass,
-} from 'src/public/ContextContainer';
+} from 'src';
+import { ProofOfBeingCalledByContextContainer } from 'src/private/ContextContainerFactoryImpl';
+import { PluginCollection } from 'src/private/PluginCollection';
 
 export class ContextContainerImpl implements ContextContainer {
   private singletons: Map<

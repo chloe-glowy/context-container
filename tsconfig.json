@@ -1,9 +1,15 @@
 {
   "compilerOptions": {
+    "noEmitOnError": true,
+    "sourceMap": true,
     "baseUrl": ".",
-    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "dist",
+    "target": "es5",
+    "strict": true,
     "moduleResolution": "node",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "declaration": true
   },
   "skipLibCheck": true,
   "allowJs": false,

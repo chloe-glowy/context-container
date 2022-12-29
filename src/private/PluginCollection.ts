@@ -1,4 +1,4 @@
-import { PluginReference, PluginSpec } from 'src/public/ContextContainer';
+import { PluginReference, PluginSpec } from 'src';
 
 export class PluginCollection {
   private plugins: Map<PluginReference<unknown>, unknown> = new Map();

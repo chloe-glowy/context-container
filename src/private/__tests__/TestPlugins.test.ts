@@ -1,8 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import {
-  ContextContainerFactory,
-  createPluginReference,
-} from 'src/public/ContextContainer';
+import { ContextContainerFactory, createPluginReference } from 'src';
 
 describe('Plugins', () => {
   it('Gets the plugin that was set', () => {

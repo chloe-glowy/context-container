@@ -1,6 +1,6 @@
 import { describe, expect, it } from '@jest/globals';
+import { createPluginReference } from 'src';
 import { assertConstructedByContextContainer } from 'src/private/ContextContainerFactoryImpl';
-import { createPluginReference } from 'src/public/ContextContainer';
 
 describe('Errors', () => {
   it('Fails if an incorrect token is passed', async () => {

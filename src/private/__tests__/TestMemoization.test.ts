@@ -1,5 +1,5 @@
 import { describe, expect, it } from '@jest/globals';
-import { CC, ContextContainerFactory } from 'src/public/ContextContainer';
+import { CC, ContextContainerFactory } from 'src';
 
 describe('Memoization', () => {
   it('Returns a value', () => {

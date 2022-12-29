@@ -1,6 +1,6 @@
+import { ContextContainer, PluginSpec } from 'src';
 import { ContextContainerImpl } from 'src/private/ContextContainerImpl';
 import { PluginCollection } from 'src/private/PluginCollection';
-import { ContextContainer, PluginSpec } from 'src/public/ContextContainer';
 
 const TOKEN = Math.random();
 
